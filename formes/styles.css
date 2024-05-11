@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #333; 
+    color: white;
+}
+
+footer {
+    color: white;
+    background-color: #333;
+}
+
+#formes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100vw;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+#formes input {
+    width: 200px;
+    align-items: center;
+}
+
+#formes button{
+    width: 200px;
+    background-color: #0074d9;
+    color: white;
+    padding: 5px;
+}
+
+#formes textarea{
+    width: 200px;
+}
+
+#lista-tarefas{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ margin: 10px;
+ border: 1px solid #333;   
+}
+#lista-tarefas h2{
+    margin-left: 20px;
+}
+#lista-tarefas ol{
+    text-wrap: balance;
+    justify-content: left;
+    text-align: left;
+}
+
