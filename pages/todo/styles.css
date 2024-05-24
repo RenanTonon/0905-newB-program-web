@@ -53,7 +53,27 @@ main form {
   width: 40ch;
   margin: 0 auto;
 }
+main li p{
+  display:flex;
+  flex-direction: column;
+}
+main li {
+  display: flex ;
+  flex-direction: column;
+  position: relative;
+}
+main li button {
+  background-color: #676767;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  position: absolute;
+  top:10px;
+  right: 10px;
+  
 
+}
 input,
 textarea {
   width: 100%;
