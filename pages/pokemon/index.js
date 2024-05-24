@@ -1,4 +1,3 @@
-
 function changePageTitle(title) {
     document.title = title
   }
@@ -67,4 +66,3 @@ function changePageTitle(title) {
   document.addEventListener('DOMContentLoaded', function () {
     getSearchParams()
   })
-  
